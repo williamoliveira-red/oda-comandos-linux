@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    min-height: 100vh;
+    padding: 2rem 1rem;
+}
+
+header {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+main {
+    display: flex;           
+    flex-direction: column;
+    
+    width: 100%;
+    max-width: 450px;
+
+    gap: 1.5rem;
+
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 4rem;
+    text-align: justify;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.bt {
+    display: inline-block;
+    align-self: flex-start;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    margin-bottom: 2rem;
+}
+
+thead th {
+    border-collapse: separate;
+    border: 1px solid black;
+
+}
+
+th {
+    padding: 1rem;
+}
+
+td{
+    padding: 0.7rem;
+}
+
+
+@media (min-width: 768px) {
+    main {
+        max-width: 800px;
+        padding: 4rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+        border: 1px solid #1E293B;
+        border-radius: 12px;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+
+h2.desafio {
+    text-align: center;
+}
+
+div#perguntas {
+    border: 1px solid black;
+    box-shadow:5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.tela_resultado {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    text-align: center;      
+    gap: 2rem;               
+    padding: 2rem 1rem;
+    width: 100%;
+}
+
+
+
+.quiz-card {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.opcao-btn {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+.opcao-btn:hover {
+    background-color: #f8fafc;
+    border-color: #1e293b;
+}
+
+/* Desktop Adjustment */
+@media (min-width: 768px) {
+    .quiz-card {
+        max-width: 700px;
+        padding: 3rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.bt-reiniciar {
+    display: inline-block;
+    width: 40%; 
+    padding: 1.2rem;
+    background-color: #000000;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s transform 0.2s;
+}
