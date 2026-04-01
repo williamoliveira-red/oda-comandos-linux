@@ -50,7 +50,7 @@ h2 {
 p {
     font-size: 1rem;
     line-height: 1.6;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
     text-align: justify;
 }
 
@@ -69,17 +69,42 @@ p {
     font-weight: bold;
 }
 
+ul {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+}
+
 table {
     width: 100%;
     border-collapse: separate;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
-thead th {
+
+thead th:first-child {
+    width: 35%;
     border-collapse: separate;
     border: 1px solid black;
 
 }
+
+thead th:nth-child(2) {
+    width: 65%;
+    border-collapse: separate;
+    border: 1px solid black;
+
+}
+
+thead th:s {
+    width: 20%;
+    border-collapse: separate;
+    border: 1px solid black;
+
+}
+
+
 
 th {
     padding: 1rem;

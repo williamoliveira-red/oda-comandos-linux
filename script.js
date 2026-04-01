@@ -5,11 +5,30 @@ const perguntas = [
         correta: 0
     },
     {
-        titulo: "O que acontece ao inserir (cd /home/usuario/downloads) no terminal?",
-        opcoes: ["Renomeia a pasta downloads", "Apaga o conteúdo da pasta downloads", "Navega para a pasta download"],
+        titulo: "O que acontece ao inserir <strong>\"cd /home/usuario/downloads\"</strong> no terminal?",
+        opcoes: ["Renomeia a pasta downloads", "Apaga o conteúdo da pasta downloads", "Navega para a pasta downloads"],
         correta: 2
+    },
+    {
+        titulo: "Qual a função do comando <strong>\"grep\"</strong>?",
+        opcoes: ["Mostrar o caminho da pasta atual", "Criar um novo arquivo vazio", "Mostrar o conteúdo de um arquivo uma página por vez", "Procurar palavras específicas em um arquivo"],
+        correta: 3
+    },
+    {
+        titulo:"Qual comando cria diretórios?",
+        opcoes: ["mkdir","rmdir","grep","mv"],
+        correta:0
+    },
+    {    
+        titulo:"Qual das opções abaixo possuem apenas comandos de exibição?",
+        opcoes: ["touch, head e tail","cat, less e head","less, grep e tail", "touch, grep e cat"],
+        correta:1
+    },
+    {    
+        titulo:"Qual comando usar para mostrar o caminho do diretório usado?",
+        opcoes: ["cp", "locate","cd","pwd"],
+        correta: 3
     }
-    
 ];
 
 let indiceAtual = 0;
