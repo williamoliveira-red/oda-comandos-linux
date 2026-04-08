@@ -28,17 +28,7 @@ const perguntas = [
         titulo:"Qual comando usar para mostrar o caminho do diretório usado?",
         opcoes: ["cp", "locate","cd","pwd"],
         correta: 3
-    },
-    { 
-        titulo:"Que comando é utilizado para visualizar informações de um determinado comando?",
-        opcoes: ["list","man","grep","cat"],
-        correta: 1
-     },
-     {
-        titulo:"Qual comando do Linux serve para copiar arquivos de um diretório para outro?",
-        opcoes: ["cp","mv","pwd","grep"],
-        correta: 0
-      }
+    }
 ];
 
 let indiceAtual = 0;
