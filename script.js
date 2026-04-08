@@ -31,12 +31,12 @@ const perguntas = [
     },
     { 
         titulo:"Que comando é utilizado para visualizar informações de um determinado comando?",
-        opcoes: ["list", "man", "grep", "cat"],
+        opcoes: ["list","man","grep","cat"],
         correta: 1
      },
      {
         titulo:"Qual comando do Linux serve para copiar arquivos de um diretório para outro?",
-        opcoes: ["cp", "mv", "pwd", "grep"],
+        opcoes: ["cp","mv","pwd","grep"],
         correta: 0
       }
 ];
